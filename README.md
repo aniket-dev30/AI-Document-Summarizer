@@ -18,6 +18,17 @@ webpage link -: https://mellifluous-baklava-95cdf5.netlify.app
 - 🧩 **Reusable Components**: Clean and modular design for input, output, and interactive sections.
 - 📱 **Responsive UI**: Works well on desktops, tablets, and mobile devices.
 
+🧠 How It Works
+
+The app sends input text to an AI model (can be connected via an API like OpenAI or Hugging Face). The model returns a summary which is displayed in a formatted, user-friendly layout. You can extend it further with follow-up Q&A functionality using context-based prompts.
+
+
+
+📄 License
+
+This project is open-source and available under the MIT License.
+
+
 
 ## 📦 Installation
 
@@ -33,12 +44,3 @@ npm install
 
 # Start the development server
 npm run dev
-
-🧠 How It Works
-
-The app sends input text to an AI model (can be connected via an API like OpenAI or Hugging Face). The model returns a summary which is displayed in a formatted, user-friendly layout. You can extend it further with follow-up Q&A functionality using context-based prompts.
-
-📄 License
-
-This project is open-source and available under the MIT License.
-
